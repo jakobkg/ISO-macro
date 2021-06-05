@@ -21,7 +21,7 @@ jobs:
           sudo apt update
 
       - name: Install KiCad
-        run: sudo apt install --no-install-recommends kicad kicad-symbols kicad-footprints kicad-packages3d
+        run: sudo apt install --no-install-recommends kicad kicad-symbols kicad-footprints
         
       - name: Generate STEP
         run: kicad2step ISO-macro.kicad_pcb

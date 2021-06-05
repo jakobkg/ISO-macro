@@ -1,3 +1,4 @@
 *.step
 *.kicad_pcb-bak
 *.sch-bak
+_autosave*
