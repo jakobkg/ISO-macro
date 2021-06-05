@@ -1,0 +1,36 @@
+name: CI
+ 
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+  workflow_dispatch:
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Add PPA repo
+        run: |
+          sudo add-apt-repository --yes ppa:kicad/kicad-5.1-releases
+          sudo apt update
+
+      - name: Install KiCad
+        run: sudo apt install --no-install-recommends kicad kicad-symbols kicad-footprints kicad-packages3d
+        
+      - name: Generate STEP
+        run: kicad2step ISO-macro.kicad_pcb
+
+      - uses: "marvinpinto/action-automatic-releases@latest"
+        with:
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          automatic_release_tag: "latest"
+          prerelease: true
+          title: "Development Build"
+          files: |
+            *.stp
