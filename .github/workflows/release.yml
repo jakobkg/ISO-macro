@@ -80,7 +80,7 @@ jobs:
 
     - name: Run PCB stuff
       run: |
-        [ -f *.kicad_pcb ] && kiplot  -d Fabrication -s all print_front gerbers
+        [ -f *.kicad_pcb ] && kiplot  -d Fabrication -s all print_front print_back gerbers drill position bom
     - name: Retrieve results
       uses: actions/upload-artifact@v1
       with:
