@@ -21,7 +21,7 @@ preflight:
   update_xml: true
   run_drc: true
   check_zone_fills: true
-  ignore_unconnected: false
+  ignore_unconnected: true
 
 outputs:
   - name: 'print_sch'
