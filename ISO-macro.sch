@@ -25,7 +25,7 @@ F 3 "~" H 7050 2310 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L ISO-macro-rescue:USB_C_Receptacle_USB2.0-Connector J1
+L ISO-macro-rescue:USB_C_Receptacle_USB2.0-Connector-ISO-macro-rescue J1
 U 1 1 60B90A6D
 P 1250 1750
 F 0 "J1" H 1357 2617 50  0000 C CNN
@@ -898,4 +898,14 @@ Wire Wire Line
 	3500 1600 3800 1600
 Wire Wire Line
 	3800 1600 3800 1550
+NoConn ~ 4450 3250
+NoConn ~ 4450 3350
+NoConn ~ 4450 3450
+NoConn ~ 4450 3550
+NoConn ~ 4450 3650
+NoConn ~ 4450 3750
+NoConn ~ 4450 3850
+NoConn ~ 4450 4150
+NoConn ~ 4450 4250
+NoConn ~ 4450 4450
 $EndSCHEMATC

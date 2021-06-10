@@ -127,11 +127,11 @@ X S2 S2 300 -100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# ISO-macro-rescue_USB_C_Receptacle_USB2.0-Connector
+# ISO-macro-rescue_USB_C_Receptacle_USB2.0-Connector-ISO-macro-rescue
 #
-DEF ISO-macro-rescue_USB_C_Receptacle_USB2.0-Connector J 0 40 Y Y 1 F N
+DEF ISO-macro-rescue_USB_C_Receptacle_USB2.0-Connector-ISO-macro-rescue J 0 40 Y Y 1 F N
 F0 "J" -400 750 50 H V L CNN
-F1 "ISO-macro-rescue_USB_C_Receptacle_USB2.0-Connector" 750 750 50 H V R CNN
+F1 "ISO-macro-rescue_USB_C_Receptacle_USB2.0-Connector-ISO-macro-rescue" 750 750 50 H V R CNN
 F2 "" 150 0 50 H I C CNN
 F3 "" 150 0 50 H I C CNN
 $FPLIST
