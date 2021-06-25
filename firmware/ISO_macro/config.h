@@ -4,8 +4,8 @@
 
 #include "config_common.h"
 
-#define VENDOR_ID    0xFEED
-#define PRODUCT_ID   0x0000
+#define VENDOR_ID    0xF055
+#define PRODUCT_ID   0x1234
 #define DEVICE_VER   0x0001
 #define MANUFACTURER Jakob Grønhaug
 #define PRODUCT      ISO_macro
