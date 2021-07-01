@@ -2,7 +2,7 @@
     "name": "ISO Macro",
     "vendorId": "0xF055",
     "productId": "0x1234",
-    "lighting": "none",
+    "lighting": "qmk_rgblight",
     "matrix": {"rows": 2, "cols": 4},
     "layouts": {
         "keymap": [
